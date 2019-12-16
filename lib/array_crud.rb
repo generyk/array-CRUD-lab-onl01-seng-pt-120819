@@ -21,8 +21,9 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
+  create_an_array = ["wow", "a", "b", "c", "d", "arrays!"]
+  create_an_array.shift 
   
-create_an_array.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
